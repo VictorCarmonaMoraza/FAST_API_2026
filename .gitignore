@@ -1,0 +1,110 @@
+# ============================================
+# 🧠 .gitignore para proyecto FastAPI (Python)
+# ============================================
+
+# 🐍 Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧩 Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+.Python
+
+# 🧾 Archivos de configuración de entorno
+.env
+*.env
+.env.*
+!.env.example  # (opcional, para mantener una plantilla sin datos sensibles)
+api_key.txt
+secret.key
+config.json
+
+# ⚙️ Archivos de configuración locales de IDEs
+.vscode/
+.idea/
+*.iml
+
+# 📦 Dependencias, build y distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🧰 Archivos de logs y debugging
+*.log
+*.out
+*.err
+logs/
+nohup.out
+
+# 🧪 Archivos de tests y cobertura
+.coverage
+.tox/
+.nox/
+pytest_cache/
+.cache/
+.pytest_cache/
+htmlcov/
+
+# 🧠 Archivos de base de datos locales (SQLite)
+*.db
+*.sqlite3
+
+# 🐳 Docker y contenedores
+Dockerfile~
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# 📸 Archivos temporales de sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ⚙️ Archivos temporales y de lock
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+# 📦 Archivos de documentación generados
+site/
+docs/_build/
+__pypackages__/
+*.rst~
+*.md~
+
+# 📡 Archivos de entorno y configuración temporal
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🧑‍💻 Configuración de herramientas de CI/CD (si no se desea incluir)
+.github/
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# ============================================
+# ✅ Fin del .gitignore de FastAPI
+# ============================================
